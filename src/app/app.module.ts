@@ -9,6 +9,7 @@ import { CommercialComponent } from './commercial/commercial.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { EstimatesComponent } from './estimates/estimates.component';
 import { ContactComponent } from './contact/contact.component';
+import { IndustrialComponent } from './industrial/industrial.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactComponent } from './contact/contact.component';
     CommercialComponent,
     GalleryComponent,
     EstimatesComponent,
-    ContactComponent
+    ContactComponent,
+    IndustrialComponent
   ],
   imports: [
     BrowserModule,

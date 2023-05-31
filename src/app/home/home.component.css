@@ -1,5 +1,5 @@
 h1 {
-    color: yellow;
+    color: white;
   }
   
   .app {
@@ -7,3 +7,60 @@ h1 {
     max-width: 500px;
     margin: auto;
   }
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .title h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .title h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .card {
+    width: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .card img:hover {
+    cursor: pointer;
+  }
+
+  .card h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  h3:hover {
+    color: navy;
+  }
+  
+  .card p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  
+  }
+  
+  

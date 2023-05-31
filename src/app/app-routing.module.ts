@@ -7,6 +7,7 @@ import { EstimatesComponent } from './estimates/estimates.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home.component';
 import { ResidentialComponent } from './residential/residential.component';
+import { IndustrialComponent } from './industrial/industrial.component';
 
 
 
@@ -18,7 +19,8 @@ const routes: Routes = [
   {path: 'estimates', component: EstimatesComponent},
   {path: 'gallery', component: GalleryComponent},
   {path: 'home', component: HomeComponent},
-  {path: 'residential', component: ResidentialComponent}
+  {path: 'residential', component: ResidentialComponent},
+  {path: 'industrial', component: IndustrialComponent}
 ];
 
 @NgModule({
