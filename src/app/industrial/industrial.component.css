@@ -1,0 +1,67 @@
+h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 70px;
+    justify-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .card {
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card img:hover {
+    cursor: pointer;
+  }
+  
+  .card h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  h3:hover {
+    color: rgb(0, 175, 239);
+  }
+  .homebanner {
+    width: 100%;
+    max-width: 100vw; /* Set max width to screen width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .divider {
+    width: 100%;
+    border: none;
+    border-top: 20px solid #333333;
+    margin-bottom: 0px;
+  }
+  
+  .homebanner img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+  }

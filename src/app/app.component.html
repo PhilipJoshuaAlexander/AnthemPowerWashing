@@ -2,7 +2,7 @@
   <header>
     <div class="banner">
       <div class="logo">
-        <img src="../assets/Images/logo.jpg"  alt="Logo">
+        <img src="../assets/Images/apw_logo.jpg" alt="Logo" class="logo-image" routerLink="/">
       </div>
       <nav> 
         <ul> 
@@ -12,32 +12,18 @@
           <li><a routerLink="/industrial">Industrial</a></li>
           <li><a routerLink="/gallery">Gallery</a></li>
           <li><a routerLink="/contact">Contact</a></li>
-          <li><a href=tel:3303144816>Free Estimates 330-314-4816</a></li>
-
+          <li><a href="tel:3303144816">Free Estimates: 330-314-4816</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main class="content">
-    
-    
-    <video class="video" autoplay loop muted>
-      <source src="../assets/Videos/Video1.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-
-
-    <div class="overlay"></div>
+  <main class="main">
     <div class="router-outlet">
       <router-outlet></router-outlet>
     </div>
   </main>
-
-
-
-
-
+  
   <footer class="footer">
     <div class="container">
       <div class="footer-content">

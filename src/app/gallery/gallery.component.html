@@ -1,1 +1,26 @@
-<h1> Gallery Page</h1>
+<main class="content">
+   
+    <hr class="divider">
+    <div class = "homebanner">
+      <img src="../assets/Images/apw_gallery.jpg">
+    </div>
+    <div class="gallery-container">
+      <div class="gallery" #gallery>
+        
+        <img src="../assets/Images/residential_driveway.jpg" alt="Image 1">
+        <img src="../assets/Images/commercial_gas_station.jpg" alt="Image 2">
+        <img src="../assets/Images/industrial_tractor.jpg" alt="Image 3">
+        <img src="../assets/Images/apw_gallery.jpg" alt="Image 4">
+        <img src="../assets/Images/residential_driveway.jpg" alt="Image 5">
+        <img src="../assets/Images/commercial_gas_station.jpg" alt="Image 6">
+        <img src="../assets/Images/industrial_tractor.jpg" alt="Image 7">
+        <img src="../assets/Images/apw_gallery.jpg" alt="Image 8">
+        
+        <button class="gallery-button prev" (click)="scrollGallery('prev')">Prev</button>
+        <button class="gallery-button next" (click)="scrollGallery('next')">Next</button>
+      </div>
+    </div>
+
+  
+  </main>
+
