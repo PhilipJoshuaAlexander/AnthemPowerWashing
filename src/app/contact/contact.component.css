@@ -1,6 +1,6 @@
 .homebanner {
   width: 100%;
-  max-width: 100vw; /* Set max width to screen width */
+  max-width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,17 +14,17 @@
 }
 
 .homebanner img {
-  max-width: 100%; /* Make the image responsive */
+  max-width: 60%;
   height: auto;
 }
 
 .contact-section {
-  background-color: rgb(33, 64, 154);
+  background-color: rgb(255, 255, 255);
   padding: 50px 0;
 }
 
 .contact-container {
-  max-width: 100%;
+  max-width: 100vw;
   margin: 0 auto;
 }
 
@@ -33,7 +33,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: #333333;
 }
 
 .company-info {
@@ -43,31 +43,36 @@
 }
 
 .company-info img {
-  width: 500px;
+  width: 40vw;
   height: auto;
+  margin-left: 40px;
   margin-right: 40px;
+  border-radius:10px;
 }
 
 .company-details {
-  
+  width: 40vw;
+  height: auto;
   text-align: left;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .company-details p {
-  margin-bottom: 10px;
-  font-size: 20px;
+  margin-bottom: 1vw;
+  font-size: 2.2vw;
 }
 .company-details a {
   margin-bottom: 10px;
-  font-size: 20px;
-  color: #ffffff;
+  font-size: 2vw;
+  color:#333333;
 }
 .company-details a:hover {
   color: rgb(141, 198, 63);
 }
 
 .company-details strong {
-  font-size: 40px;
+  font-size: 3.5vw;
 }
 
 .social-media {
@@ -77,8 +82,8 @@
 .social-media a {
   display: inline-block;
   margin-right: 20px;
-  font-size: 36px;
-  color: #ffffff;
+  font-size: 4vw;
+  color: rgb(0,175,239);
   transition: color 0.3s ease;
 }
 

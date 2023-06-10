@@ -39,6 +39,7 @@ import { WarehoseCleaningComponent } from './warehose-cleaning/warehose-cleaning
 import { StorageTanksComponent } from './storage-tanks/storage-tanks.component';
 import { DumpstersAndSurroundingAreasComponent } from './dumpsters-and-surrounding-areas/dumpsters-and-surrounding-areas.component';
 import { FarmSolarPanelsComponent } from './farm-solar-panels/farm-solar-panels.component';
+import { CustomIndustrialComponent } from './custom-industrial/custom-industrial.component';
 
 
 
@@ -84,7 +85,7 @@ const routes: Routes = [
   {path: 'storage_tanks', component: StorageTanksComponent },
   {path: 'dumpsters_surrounding_areas', component: DumpstersAndSurroundingAreasComponent },
   {path: 'farm_solar_panels', component: FarmSolarPanelsComponent },
-  {path: 'custom_industrial', component: CustomCommercialComponent }
+  {path: 'custom_industrial', component: CustomIndustrialComponent }
 
 
 ];
