@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+main {
+  font-family: 'Cabin', Sans-serif;
+}
+
 h1 {
   color: white;
   font-weight: bold;
@@ -62,10 +68,6 @@ h1 {
   font-weight: bold;
   cursor: pointer;
   text-align: center;
-}
-
-h3 {
-  color: #333333;
 }
 
 h3:hover {

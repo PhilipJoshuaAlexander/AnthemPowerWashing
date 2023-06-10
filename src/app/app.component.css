@@ -70,9 +70,9 @@ body {
 #hamburger-menu {
     position: fixed;
     top: 35px;
-    left: 20px;
-    width: 50px;
-    height: 50px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
     display: none;
     border: none;
     padding: 0px;
@@ -80,7 +80,7 @@ body {
     font-family: 'Cabin', Sans-serif;
     background: linear-gradient(
       to bottom, 
-      #00afef, #00afef 20%, 
+      #00afef 0%, #00afef 20%, 
       #ffffff00 20%, #ffffff00 40%, 
       #00afef 40%, #00afef 60%, 
       #ffffff00 60%, #ffffff00 80%, 
@@ -89,7 +89,18 @@ body {
     z-index: 2;
 }
 
-
+#hamburger-menu:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    to bottom, 
+    #21409a, #21409a 20%, 
+    #ffffff00 20%, #ffffff00 40%, 
+    #21409a 40%, #21409a 60%, 
+    #ffffff00 60%, #ffffff00 80%, 
+    #21409a 80%, #21409a 100%
+  );
+  
+}
 
 #hamburger-menu #sidebar-menu {
     visibility: hidden;
@@ -103,8 +114,6 @@ body {
     padding: 0px 10px;
     box-sizing: border-box;
 }
-
-
 
 #hamburger-menu ul {
   padding-left: 0px;
@@ -133,6 +142,7 @@ body {
 
 .material-symbols-outlined:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 #hamburger-input:checked + #hamburger-menu #sidebar-menu {

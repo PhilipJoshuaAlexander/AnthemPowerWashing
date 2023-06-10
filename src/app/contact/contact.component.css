@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+main {
+  font-family: 'Cabin', Sans-serif;
+}
+
+
 .homebanner {
   width: 100%;
   max-width: 100vw;
@@ -29,14 +36,15 @@
 }
 
 .contact-info {
+  font-family: 'Cabin', Sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  color: #333333;
 }
 
 .company-info {
+  font-family: 'Cabin', Sans-serif;
   display: flex;
   align-items: center;
   margin-top: 0px;
@@ -51,6 +59,7 @@
 }
 
 .company-details {
+  font-family: 'Cabin', Sans-serif;
   width: 40vw;
   height: auto;
   text-align: left;
@@ -65,7 +74,6 @@
 .company-details a {
   margin-bottom: 10px;
   font-size: 2vw;
-  color:#333333;
 }
 .company-details a:hover {
   color: rgb(141, 198, 63);
