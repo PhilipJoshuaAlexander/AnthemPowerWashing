@@ -42,6 +42,7 @@ import { StorageTanksComponent } from './storage-tanks/storage-tanks.component';
 import { DumpstersAndSurroundingAreasComponent } from './dumpsters-and-surrounding-areas/dumpsters-and-surrounding-areas.component';
 import { FarmSolarPanelsComponent } from './farm-solar-panels/farm-solar-panels.component';
 import { CustomIndustrialComponent } from './custom-industrial/custom-industrial.component';
+import { BurgerMenuComponent } from './burger-menu/burger-menu.component';
 
 @NgModule({
   declarations: [
@@ -84,7 +85,8 @@ import { CustomIndustrialComponent } from './custom-industrial/custom-industrial
     StorageTanksComponent,
     DumpstersAndSurroundingAreasComponent,
     FarmSolarPanelsComponent,
-    CustomIndustrialComponent
+    CustomIndustrialComponent,
+    BurgerMenuComponent
   ],
   imports: [
     BrowserModule,

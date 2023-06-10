@@ -1,64 +1,62 @@
-<div class="app">
-  <header>
-    <div class="banner">
-      <div class="logo">
-        <img src="../assets/Images/apw_logo.jpg" alt="Logo" class="logo-image" routerLink="/">
-      </div>
-      <nav> 
-        <ul>  
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+<nav id="main-menu">
+
+  <ul>
+
+    <div class="logo">
+      <img src="../assets/Images/apw_logo.jpg" alt="Logo" class="logo-image" routerLink="/">
+    </div>
+
           <li><a routerLink="/">Home</a></li>
           <li><a routerLink="/residential">Residential</a></li>
           <li><a routerLink="/commercial">Commercial</a></li>
           <li><a routerLink="/industrial">Industrial</a></li>
           <li><a routerLink="/gallery">Gallery</a></li>
           <li><a routerLink="/contact">Contact</a></li>
-          <li><a href="tel:3303144816">Free Estimates: 330-314-4816</a></li>
-        </ul>
-      </nav>
+  </ul>
+</nav>
+
+<input type="checkbox" id="hamburger-input" class="burger-shower" />
+<label id="hamburger-menu" for="hamburger-input">
+  <nav id="sidebar-menu">
+    <ul>
+      <input type="checkbox" id="hamburger-input" class="burger-shower" />
+      <li><span class="material-symbols-outlined">
+        close
+        </span></li>
+      <li><a routerLink="/">Home</a></li>
+      <li><a routerLink="/residential">Residential</a></li>
+      <li><a routerLink="/commercial">Commercial</a></li>
+      <li><a routerLink="/industrial">Industrial</a></li>
+      <li><a routerLink="/gallery">Gallery</a></li>
+      <li><a routerLink="/contact">Contact</a></li>
+    </ul>
+  </nav>
+</label>
+
+    <router-outlet></router-outlet>
+
+
+<footer class="contact-footer">
+  <div class="social-media">
+    <a href="https://www.facebook.com/yourcompany" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.twitter.com/yourcompany" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/yourcompany" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.youtube.com/yourcompany" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+    <a href="tel:+1234567890" target="_blank" rel="noopener noreferrer"><i class="fas fa-phone"></i></a>
+    <a href="mailto:AnthemPowerWashing@gmail.com" target="_blank" rel="noopener noreferrer"><i class="far fa-envelope"></i></a>
+  </div>
+</footer>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <p>&copy; 2023 Anthem Power Washing. All rights reserved.</p>
+      <p>Site developed by Alexander Innovation LLC</p>
+      <ul class="footer-links">
+      </ul>
     </div>
-  </header>
-
-
-  <main class="main">
-    <div class="router-outlet">
-      <router-outlet></router-outlet>
-    </div>
-  </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <footer class="contact-footer">
-    <div class="social-media">
-      <a href="https://www.facebook.com/yourcompany" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
-      <a href="https://www.twitter.com/yourcompany" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
-      <a href="https://www.instagram.com/yourcompany" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.youtube.com/yourcompany" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
-      <a href="tel:+1234567890" target="_blank" rel="noopener noreferrer"><i class="fas fa-phone"></i></a>
-      <a href="mailto:AnthemPowerWashing@gmail.com" target="_blank" rel="noopener noreferrer"><i class="far fa-envelope"></i></a>
-    </div>
-  </footer>
-
-  
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-content">
-        <p>&copy; 2023 Anthem Power Washing. All rights reserved.</p>
-        <p>Site developed by Alexander Innovation LLC</p>
-        <ul class="footer-links">
-        </ul>
-      </div>
-    </div>
-  </footer>
-</div>
+  </div>
+</footer>
